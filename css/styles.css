@@ -4,21 +4,30 @@ body {font-family: "Roboto",
     font-size: 56px;
 }
 
+.header {
+    width: 1440px;
+    height: 72px;
+    display: flex;
+}
+
 .header-logo { font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5 
+    color: #2e2f42;
+    text-decoration: none;
+    text-decoration: underline
 }
 
 .header-logo-color {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
+
