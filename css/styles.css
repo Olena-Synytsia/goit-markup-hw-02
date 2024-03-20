@@ -155,11 +155,10 @@ ul {
     text-transform: capitalize;
 }
 
-.background-our-portfolio {
+.post {
     background: #fff;
 }
-
-h2>h3 {
+.post > h3 {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -167,7 +166,7 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 
-.our-portfolio-item-text {
+.post > p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
