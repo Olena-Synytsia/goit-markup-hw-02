@@ -7,7 +7,6 @@ body {
     height: 72px;
     display: inline;
     display: flex;
-    box-sizing: border-box;
 }
 
 a {
@@ -28,6 +27,10 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+    padding-top: 24px;
+    padding-right: 76px;
+    padding-bottom:24px;
+    padding-left: 156px;
 }
 
 .header-logo-color {
