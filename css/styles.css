@@ -39,7 +39,7 @@ ul {
     color: #2e2f42;
 }
 
-.item :hover {
+.item:hover {
     color: #404bbf;
 }
 
@@ -51,9 +51,9 @@ ul {
     color: #434455;
 }
 
-.contact :hover {
+.contact:hover {
     color: #404bbf;
-    }
+}
 
 .background {
     background: #2e2f42;
@@ -75,4 +75,9 @@ ul {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     text-align: center;
+    text-decoration-color: #fff;
+}
+
+.btn:hover {
+    background-color: #404bbf;
 }
