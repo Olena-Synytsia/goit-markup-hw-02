@@ -43,6 +43,10 @@ ul {
     color: #404bbf;
 }
 
+.item:active {
+    color: #2e2f42;
+}
+
 .contact {
     font-weight: 400;
     font-size: 16px;
@@ -75,9 +79,34 @@ ul {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     text-align: center;
-    text-decoration-color: #fff;
+    color: #fff;
 }
 
 .btn:hover {
     background-color: #404bbf;
+}
+
+.title-about {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.title-about-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455; 
+}
+
+.title-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
