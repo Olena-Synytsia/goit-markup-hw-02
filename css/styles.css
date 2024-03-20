@@ -33,7 +33,7 @@ ul {
     color: #2e2f42;
 }
 
-.item {
+.list {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -41,19 +41,11 @@ ul {
     color: #2e2f42;
 }
 
-.studio {
-    color: #404bbf
-}
-
-.item:hover {
+.list:hover, .list:focus {
     color: #404bbf;
 }
 
-.portfolio:focus {
-    color: #404bbf
-}
-
-.item:active {
+.list:active {
     color: #2e2f42;
 }
 
@@ -66,11 +58,8 @@ ul {
     font-style: normal
 }
 
-.contact:hover {
+.contact:hover, .contact:focus {
     color: #404bbf;
-}
-.contact:focus { 
-    color:#404bbf
 }
 
 .background {
@@ -96,7 +85,7 @@ ul {
     letter-spacing: 0.04em;
 }
 
-.btn:hover {
+.btn:hover, .btn:focus {
     background-color: #404BBF;
 }
 
@@ -108,12 +97,12 @@ ul {
     color: #2e2f42;
 }
 
-.title-about-text {
+.about-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455; 
+    color: #434455;
 }
 
 .background-our-team {
@@ -156,10 +145,11 @@ ul {
 .title-our-portfolio {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .background-our-portfolio {
@@ -174,7 +164,7 @@ ul {
     color: #2e2f42;
 }
 
-.our-portfolio-item-text {
+.our-portfolio-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -202,4 +192,14 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
