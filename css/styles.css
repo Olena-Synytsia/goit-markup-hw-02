@@ -23,7 +23,7 @@ ul {
     color: #4d5ae5;
 }
 
-.header-logo-color {
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -31,6 +31,10 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+}
+
+.address {
+    font-style: normal
 }
 
 .list {
@@ -55,7 +59,6 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal
 }
 
 .contact:hover, .contact:focus {
