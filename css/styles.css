@@ -58,6 +58,9 @@ ul {
 .contact:hover {
     color: #404bbf;
 }
+.contact:focus { 
+    color:#404bbf
+}
 
 .background {
     background: #2e2f42;
